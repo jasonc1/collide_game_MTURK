@@ -1,0 +1,90 @@
+body{
+	background-color: #eee;
+
+
+}
+.container{
+	background-color: white;
+	margin-top: 5%;
+	padding: 2em;
+	margin-bottom: 5%;
+
+
+}
+h1{
+  letter-spacing: .1em;
+}
+
+p#instructions{
+	margin-top: -15px;
+}
+
+
+#gameboard{
+  background-color: #eee;
+  height: 800px;
+  width: 600px;
+  position: relative;
+
+}
+
+
+
+.piece{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.obs {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+#subtitle{
+  margin-top: -1em;
+  font-size: 18pt;
+}
+
+
+.btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+    background-: #eee;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: #34D9B8;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+footer{
+  text-align: center;
+  background-color: white;
+  height: 5em;
+  padding: 1em;
+}
