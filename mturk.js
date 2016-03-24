@@ -25,6 +25,10 @@ function gup(name) {
 
 //  Turkify the captioning page.
 $(document).ready(function () {
+  $('<input>').attr({type: 'hidden', id: 'mturk_form', name: 'score'}).appendTo('form');
+
+
+
   // is assigntmentId is a URL parameter
   if((aid = gup("assignmentId"))!="" && $(form_selector).length>0) {
 
