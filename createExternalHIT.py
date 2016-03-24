@@ -4,21 +4,21 @@ from boto.mturk.question import ExternalQuestion
 
 ######  CONFIGURATION PARAMETRS  ######
 
-SANDBOX = False  # Select whether to post to the sandbox (using fake money), or live MTurk site (using REAL money)
+SANDBOX = true  # Select whether to post to the sandbox (using fake money), or live MTurk site (using REAL money)
 HIT_URL = "https://jasonc1.github.io/mTurkPeopleCounter/"  # Provide the URL that you want workers to sent sent to complete you task
 
 NUMBER_OF_HITS = 1  # Number of different HITs posted for this task
 NUMBER_OF_ASSIGNMENTS = 10  # Number of tasks that DIFFERENT workers will be able to take for each HIT
 LIFETIME = 60 * 60 * 24  # How long that the task will stay visible if not taken by a worker (in seconds)
 REWARD = 0.10 # Base payment value for completing the task (in dollars)
-DURATION = 60*5  # How long the worker will be able to work on a single task (in seconds)
+DURATION = 60*5*60  # How long the worker will be able to work on a single task (in seconds)
 APPROVAL_DELAY = 60*60*2  # How long after the task is completed will the worker be automatically paid if not manually approved (in seconds)
 
 
 # HIT title (as it will appear on the public listing)
-TITLE = 'People Counter WITH BONUSES'
+TITLE = 'Collide game'
 # Description of the HIT that workers will see when deciding to accept it or not
-DESCRIPTION = 'Count out how many people there are in each image. There are 7 images, and this should take no more than 10 minutes! You will get 10 cents for completion, but more money can be earned based on your accuracy AS A BONUS.'
+DESCRIPTION = ''
 # Search terms for the HIT posting
 KEYWORDS = ['image', 'counting', 'short']
 
