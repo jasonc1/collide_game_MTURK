@@ -4,8 +4,8 @@ from boto.mturk.question import ExternalQuestion
 
 ######  CONFIGURATION PARAMETRS  ######
 
-SANDBOX = true  # Select whether to post to the sandbox (using fake money), or live MTurk site (using REAL money)
-HIT_URL = "https://jasonc1.github.io/mTurkPeopleCounter/"  # Provide the URL that you want workers to sent sent to complete you task
+SANDBOX = True  # Select whether to post to the sandbox (using fake money), or live MTurk site (using REAL money)
+HIT_URL = "https://jasonc1.github.io/collide_game_MTURK/"  # Provide the URL that you want workers to sent sent to complete you task
 
 NUMBER_OF_HITS = 1  # Number of different HITs posted for this task
 NUMBER_OF_ASSIGNMENTS = 10  # Number of tasks that DIFFERENT workers will be able to take for each HIT
@@ -18,9 +18,9 @@ APPROVAL_DELAY = 60*60*2  # How long after the task is completed will the worker
 # HIT title (as it will appear on the public listing)
 TITLE = 'Collide game'
 # Description of the HIT that workers will see when deciding to accept it or not
-DESCRIPTION = ''
+DESCRIPTION = 'This is a mechanicalturk game: dodge obstacles so that you can gain money (as a bonus)! This game is pretty easy..'
 # Search terms for the HIT posting
-KEYWORDS = ['image', 'counting', 'short']
+KEYWORDS = ['game', 'fun', 'easy']
 
 
 # Your Amazon Web Services Access Key (private)

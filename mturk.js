@@ -25,7 +25,7 @@ function gup(name) {
 
 //  Turkify the captioning page.
 $(document).ready(function () {
-  $('<input>').attr({type: 'hidden', id: 'mturk_form', name: 'score'}).appendTo('form');
+  
 
 
 
