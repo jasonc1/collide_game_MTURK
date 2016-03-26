@@ -16,7 +16,7 @@ APPROVAL_DELAY = 60*60*2  # How long after the task is completed will the worker
 
 
 # HIT title (as it will appear on the public listing)
-TITLE = 'Collide game'
+TITLE = 'Collide Game'
 # Description of the HIT that workers will see when deciding to accept it or not
 DESCRIPTION = 'This is a mechanicalturk game: dodge obstacles so that you can gain money (as a bonus)! This game is pretty easy..'
 # Search terms for the HIT posting
